@@ -1,3 +1,12 @@
+class String
+
+	def integer:
+		return true if self =~ /^[1-9]\d*(\.\d+)?$/
+		false
+	end
+end
+
+
 module Nandu
 
 	class Builder
@@ -24,6 +33,6 @@ module Nandu
 
 		def calculation gratuity = @gratuity
 			@total += @total * (gratuity.to_f / 100)
-		end
+		end 
 	end
 end
