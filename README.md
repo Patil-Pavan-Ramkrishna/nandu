@@ -1,8 +1,6 @@
 # Nandu
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nandu`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+my first gem, have an functionality for generating values based on number which is inputed by user.
 
 ## Installation
 
@@ -21,8 +19,6 @@ Or install it yourself as:
     $ gem install nandu
 
 ## Usage
-
-TODO: Write usage instructions here
 
 Nandu::Builder.new(total: 100, gratuity: '23.5').generate # 123.5
 Nandu::Builder.new(total: 100, gratuity: 'high').generate # 125.0
